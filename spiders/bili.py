@@ -25,6 +25,7 @@ class biliSpider(scrapy.Spider):
             print("============")
             print("******item['title'] *****", item['title'])
             print("============")
+            print ('ss')
 
             yield item
         
